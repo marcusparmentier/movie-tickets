@@ -1,98 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Movie Place</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Movie Place</h1>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie Place</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Place</h1>
 
+    <form id="ticketForm">
       <div class="row">
 
-        <div class="col-md-4">
-          <h2>Movie 1</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
+        <div class="col-md-6">
+          <div class="jumbotron">
+            <h1>Theater 1: Movies</h1>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="1" checked>
+              Movie 1
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="2">
+              Movie 2
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="3">
+              Movie 3
+            </label>
+          </div>
+          <p><img src="" alt=""></p>
+
+          <h2>Theater 1: Showtimes</h2>
+          <p>space?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="1" checked>
+              12 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="1">
+              3 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="22">
+              6 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="22">
+              9 p.m.
+            </label>
+          </div>
         </div>
 
-        <div class="col-md-4">
-          <h2>Movie 2</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
-        </div>
 
-        <div class="col-md-4">
-          <h2>Movie 3</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
+        <div class="col-md-6">
+          <div class="jumbotron">
+            <h1>Theater 2: Movies</h1>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="4" checked>
+              Movie 4
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="5">
+              Movie 5
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="6">
+              Movie 6
+            </label>
+          </div>
+          <p><img src="" alt=""></p>
+
+          <h2>Theater 2: Showtimes</h2>
+          <p>space?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="1" checked>
+              1 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="1">
+              3:30 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="22">
+              5:30 p.m.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="22">
+              8 p.m.
+            </label>
+          </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-4">
-          <h2>Movie 4</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
-        </div>
-
-        <div class="col-md-4">
-          <h2>Movie 5</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
-        </div>
-
-        <div class="col-md-4">
-          <h2>Movie 6</h2>
-          <p>img</p>
-          <ul>
-            <li>time 1</li>
-            <li>time 2</li>
-            <li>time 3</li>
-            <li>time 4</li>
-            <li>time 5</li>
-            <li>time 6</li>
-          </ul>
+        <div class="col-md-12">
+          <h2>What is the age of the intended ticket holder?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="5" checked>
+              5 and younger
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="12">
+              6-12
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="55">
+              13-65
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="65">
+              65 and older
+            </label>
+          </div>
         </div>
       </div>
+
+      <button type="submit" name="btn">Submit</button>
+    </form>
+    <div class="row">
+      <h2>Ticket Price</h2>
+      <ul id="ticket-details">
+
+      </ul>
     </div>
-  </body>
+  </div>
+</body>
 </html>
